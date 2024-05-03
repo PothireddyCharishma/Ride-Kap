@@ -14,7 +14,7 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 
 ## clone or download
 ```terminal
-$ git clone https://github.com/AnanthaTeja/carpooling.git
+$ git clone https://github.com/PothireddyCharishma/Ride-Kap.git
 $ yarn # or npm i
 ```
 
@@ -39,9 +39,9 @@ client/
 
 notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
 
-## Client-side usage(PORT: 3000)
+## Client-side usage(PORT: 5173)
 ```terminal
-$ cd client          // go to client folder
+$ cd frontend          // go to client folder
 $ yarn # or npm i    // npm install packages
 $ npm run dev        // run it locally
 
@@ -50,7 +50,7 @@ $ npm run build // this will compile the react code using webpack and generate a
 $ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
 ```
 
-## Server-side usage(PORT: 8000)
+## Server-side usage(PORT: 4000)
 
 ### Prepare your secret
 
@@ -60,14 +60,14 @@ run the script at the first level:
 
 ```terminal
 // in the root level
-$ cd server
+$ cd backend
 $ echo "JWT_SECRET=YOUR_JWT_SECRET" >> src/.env
 ```
 
 ### Start
 
 ```terminal
-$ cd server   // go to server folder
+$ cd backend   // go to server folder
 $ npm i       // npm install packages
 $ npm run dev // run it locally
 $ npm run build // this will build the server code to es5 js codes and generate a dist file
